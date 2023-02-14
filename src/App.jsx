@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 import Billing from './Components/Billing/Billing';
-import Carddeal from './components/Carddeal/Carddeal';
+import CardDeal from './Components/Carddeal/CardDeal';
 import Clients from './components/Clients/Clients';
 import CTA from './components/CTA/CTA';
 import Footer from './components/Footer/Footer';
@@ -15,7 +15,7 @@ const App = () =>(
   <div className="bg-primary dark:bg-secondary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar/>
+      <Navbar/>
       </div>
     </div>
     <div className={`bg-primary dark:bg-secondary ${styles.flexStart} `}>
@@ -28,7 +28,7 @@ const App = () =>(
         <Stats/>
         <Business/>
         <Billing/>
-        <Carddeal/>
+        <CardDeal/>
         <Testimonials/>
         <Clients/>
         <CTA/>
