@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 import Billing from './Components/Billing/Billing';
-import CardDeal from './Components/Carddeal/Carddeal';
+import Carddeal from './Components/Carddeal/Carddeal';
 import Clients from './Components/Clients/Clients';
 import CTA from './Components/CTA/CTA';
 import Footer from './Components/Footer/Footer';
@@ -28,7 +28,7 @@ const App = () =>(
         <Stats/>
         <Business/>
         <Billing/>
-        <CardDeal/>
+        <Carddeal/>
         <Testimonials/>
         <Clients/>
         <CTA/>
