@@ -1,0 +1,9 @@
+.btn2 div:first-child{
+    transform: translateY(101%);
+    transition: transform .3s ease-in
+  }
+  .btn2:hover div{
+    transform: translateY(0)
+  }
+  
+  
