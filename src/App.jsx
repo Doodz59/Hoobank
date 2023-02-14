@@ -2,14 +2,14 @@ import React from 'react';
 import styles from './style';
 import Billing from './Components/Billing/Billing';
 import CardDeal from './Components/Carddeal/CardDeal';
-import Clients from './components/Clients/Clients';
-import CTA from './components/CTA/CTA';
-import Footer from './components/Footer/Footer';
+import Clients from './Components/Clients/Clients';
+import CTA from './Components/CTA/CTA';
+import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
-import Navbar from './components/Navbar/Navbar';
-import Stats from './components/Stats/Stats';
-import Testimonials from './components/Testimonials/Testimonials';
-import Business from './components/Business/Business';
+import Navbar from './Components/Navbar/Navbar';
+import Stats from './Components/Stats/Stats';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Business from './Components/Business/Business';
 
 const App = () =>(
   <div className="bg-primary dark:bg-secondary w-full overflow-hidden">
